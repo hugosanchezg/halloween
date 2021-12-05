@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scary Halloween Party</title>
+    <link rel="stylesheet" href="./styles/halloween.css">
+    <script src="./javascript/halloween.js"></script>
+    <link rel="icon" href="./images/favicon.png">
+</head>
+<body>
+    <audio id="musicafondo" loop="" controls="">
+        <source src="./sounds/musicafondo.mp3" type="audio/mp3">
+    </audio>
+    
+    <audio id="sonidomurcielago">
+        <source src="./sounds/sonidomurcielago.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="sonidobruja">
+        <source src="./sounds/sonidobruja.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="sonidoarania">
+        <source src="./sounds/sonidoarania.mp3" type="audio/mp3">
+    </audio>
+    <!--el layout básico incluye un container-->
+    <!--ESTA PÁGINA NO VA A SER RESPONSIVE-->
+    <div id="container">
+        <p id="p1">SCARY HALLOWEEN PARTY</p>
+        <p id="p2">Don't touch the moon</p>
+        <p id="p3">What's in the window?!</p>
+        <p id="p4">Did u see the skull?</p>
+        <p id="p5">⚠️Click on the elements to turn on the sound⚠️</p>
+        
+        <img id="bats" src="./images/bats.gif" alt="murcielagosvolando">
+        <div id="luna" onmouseover="mostrar('bats');sonar('sonidomurcielago')"
+                        onmouseout="ocultar('bats');parar('sonidomurcielago')"></div>
+        
+        <img id="bruja" src="./images/bruja.gif" alt="brujavolando">                
+        <div id="ventana" onmouseover="mostrar('bruja');sonar('sonidobruja')"
+                        onmouseout="ocultar('bruja');parar('sonidobruja')"></div>
+        
+        <img id="arania" src="./images/arania.gif" alt="araniascream">                
+        <div id="skull" onmouseover="mostrar('arania');sonar('sonidoarania')"
+                        onmouseout="ocultar('arania');parar('sonidoarania')"></div>
+        
+        <p  id=invitation >
+            🎃🎃THIS IS MY INVITATION FOR MY HALLOWEEN PARTY !!!💀💀<br>
+            --------------------------------------------------------------------------------------
+            <br>🧙‍♀️If you are reading this, it's because I want to see you there!
+            <br>🧙‍♀️I can't tell you more because it's a secret,
+            <br>🧙‍♀️so see you tomorrow night on Daniel Defoes Street
+            <br>🧙‍♀️at 20:00 pm, don't forget to come with a:
+            <br>🧟🧟🧟DEATHLIKE COSTUME!!🧟🧟🧟
+        </p>
+    </div>
+    
+</body>
+</html>

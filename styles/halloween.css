@@ -1,0 +1,113 @@
+/* stylesheet for halloween*/
+
+@font-face {
+    font-family: hawelin;
+    src: url("../fonts/hawelin.otf");
+}
+
+body{background-color: rgb(0, 0, 0);
+    font-family: hawelin;}
+
+    #container{background-image: url("../images/v3.png");
+        width: 1920px;
+        height: 1106px;
+        margin:auto;
+        position:relative;
+            }
+    
+    #invitation{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: absolute;
+        left: 1075px;
+        top: 270px;
+        font-size: 2em;
+        text-shadow: 3px 3px 3px rgb(228, 117, 14);
+        background-color: rgb(255, 187, 0, .2)}
+
+    #p1{font-size: 5em;
+        text-shadow: 5px 5px 5px red;
+        color:#dbe9f0;
+        position:absolute;
+        top:-20px;
+        left:175px;
+        text-align: center;
+        }
+    
+    #p2{font-size: 3em;
+        text-shadow: 5px 5px 5px red;
+        position:absolute;
+        top:80px;
+        left:175px;
+        text-align: center;
+        }
+    
+    #p3{font-size: 3em;
+        text-shadow: 5px 5px 5px rgb(255, 230, 0);
+        position:absolute;
+        top:70px;
+        left:1000px;
+        text-align: center;
+        }
+    
+    #p4{font-size: 3em;
+        text-shadow: 5px 5px 5px rgb(255, 255, 255);
+        position:absolute;
+        top:900px;
+        left:1000px;
+        text-align: center;
+        }
+
+    #p5{font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.25em;
+        color: azure;
+        position:absolute;
+        top:1050px;
+        left:20px;
+        text-align: center;
+        }
+        
+    #bats{
+        position:absolute;
+        top: 200px;
+        left: 400px;
+        visibility: hidden;
+    }
+
+    #luna{
+        width:150px;
+        height:150px;
+        position: absolute;
+        top: 200px;
+        left: 400px;
+    }
+    #bruja{
+        width:120px;
+        height:120px;
+        position: absolute;
+        top: 170px;
+        left: 1100px;
+        visibility: hidden;
+    }
+    #ventana{
+        width:50px;
+        height:50px;
+        position: absolute;
+        top: 190px;
+        left: 1150px;
+    }
+
+    #arania{
+        width:300px;
+        height:300px;
+        position: absolute;
+        top: 790px;
+        left: 1050px;
+        visibility: hidden;
+    }
+    #skull{
+        width:80px;
+        height:80px;
+        position: absolute;
+        top: 840px;
+        left: 1090px;
+    }
